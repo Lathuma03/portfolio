@@ -1,0 +1,128 @@
+.body
+{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    font-size: 16px;
+    margin:0; 
+}
+
+.container
+{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+
+#navbar
+{
+    background-color:#E0C190;
+}
+#navbar ul
+{
+    list-style: none;
+    padding: 0;
+
+}
+#navbar li
+{
+    display: inline;
+    float:right;
+    padding-bottom: 10px;
+    
+}
+#navbar a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-size: large;
+    
+}
+.logo
+{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px  ;
+}
+#home
+{
+    background-color:#FFF0D9;
+    padding-bottom: 100px;
+}
+
+.img
+{
+    margin-top: 100px;
+    border-radius: 200px;  
+    border-color: black;
+    border-width: 90%;
+    width: 23%;  
+    margin-bottom: 50px;
+}
+.self
+{
+    float:right;
+    margin-top: 150px;
+    line-height: 1.6em;
+    font-size: xx-large;
+
+}
+#about
+{
+    background-color: #FFF0D9;
+    padding-bottom: 250px;
+}
+
+#about h1{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#about h1{
+    color: #E0C190;
+}
+#about p{
+    font-size: x-large; 
+    font-weight: 500;
+    text-align:justify center;
+    line-height: 1.6em;
+    margin-top: 50px;
+}
+.vec
+{
+    float:right;
+    width: 320px;
+    height:350px;
+    position: absolute;
+    top: 700px;
+    right:200px;
+}
+#skills
+{
+    background-color: #FFF0D9;
+    padding-bottom: 100px;
+}
+#skills h1
+{
+    font-size: xx-large;
+    font-weight: 1000;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#skills{
+    color: #E0C190;
+}
+#skills ul{
+    list-style: none;
+}
+#skills li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 100px;
+}
